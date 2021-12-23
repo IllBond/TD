@@ -47,7 +47,7 @@
   <PropertyGroup>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
-    <UnityProjectGeneratorVersion>4.11.4.0</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorVersion>4.10.2.0</UnityProjectGeneratorVersion>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
     <UnityVersion>2019.4.21f1</UnityVersion>
@@ -68,9 +68,16 @@
     <Compile Include="Assets\AurynSky\Forest Pack\Scripts\MaterialMover.cs" />
     <Compile Include="Assets\AurynSky\Forest Pack\Scripts\Rotator.cs" />
     <Compile Include="Assets\AurynSky\Forest Pack\Scripts\WheelController.cs" />
+    <Compile Include="Assets\Scripts\EnemyCharacter.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\Scripts\GameMannager.cs" />
     <Compile Include="Assets\Scripts\Singletons\SceneSingleton.cs" />
+    <Compile Include="Assets\State machine\State\FallenState.cs" />
+    <Compile Include="Assets\State machine\State\IdleState.cs" />
+    <Compile Include="Assets\State machine\State\MovingState.cs" />
+    <Compile Include="Assets\State machine\State\State.cs" />
+    <Compile Include="Assets\State machine\State\VictoryState.cs" />
+    <Compile Include="Assets\State machine\StateMachine.cs" />
     <None Include="Assets\AurynSky\Forest Pack\READ ME.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
