@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class IdleState : State
 {
-    public IdleState(EnemyCharacter character, StateMachine stateMachine) : base(character, stateMachine)
+    public IdleState(EnemyBase character, StateMachine stateMachine) : base(character, stateMachine)
     { }
 
     public override void Enter()

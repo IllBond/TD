@@ -4,10 +4,10 @@ using UnityEngine;
 
 public abstract class State 
 {
-    protected EnemyCharacter character;
+    protected EnemyBase character;
     protected StateMachine stateMachine;
 
-    protected State(EnemyCharacter character, StateMachine stateMachine)
+    protected State(EnemyBase character, StateMachine stateMachine)
     {
         this.character = character;
         this.stateMachine = stateMachine;

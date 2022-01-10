@@ -4,10 +4,6 @@ using UnityEngine;
 
 public class GameMannager : SceneSingleton<GameMannager>
 {
-    // Enemys
-    // Towers
-    // Start
-    // Finish
-    // Points
-
+    public Transform[] pathPoints;
+    public GameController gameController;
 }
